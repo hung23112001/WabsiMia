@@ -1,0 +1,119 @@
+.red{
+    background-color: #e74c3c;
+}
+.blue{
+    background-color: #3498db;
+}
+.brown{
+    background-color: #cd6133;
+}
+.yellow{
+    background-color: #f1c40f;
+}
+.green{
+    background-color: #2ecc71;   
+}
+
+#container{
+    background-image: url("http://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max");
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    position: relative;
+    z-index: 2;
+}
+#footer{
+    margin-top: 0px;
+}
+
+.container_item{
+    margin: 20px auto 0;
+    min-height: 300px;
+}
+
+.container_item + .container_item{
+    margin-top: 75px;
+}
+.slick-slider{
+    z-index:3;
+}
+.container_item:nth-child(1){
+    margin-top: 100px;
+}
+/* header */
+.container_item-header{
+    width: 25%;
+    margin: 30px auto;
+    padding: 8px 0;
+    color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid ;
+    font-size: 1.8rem;
+    transition: all .1s linear;
+}
+.container_item-header:hover{
+    width: 26%;
+    font-size: 2rem;
+    box-shadow: 2px 2px #888888;
+}
+.container_item-header p{
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 10px;
+}
+.container_item-header img{
+    width: 30px;
+    height: 30px;
+}
+/* image */
+.container_item-images{
+    width: 1110px;
+    margin:0 auto ;
+}
+.item-product{
+    height: 100%;
+    margin: 8px;
+}
+.item-product img{
+    width: 100%;
+    height: 280px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.item-product h2{
+    display: table;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 0 auto 10px;
+    background-color: #dfe6e9;
+    text-align: center;
+}
+/* arrow pre , next */
+
+.slick-arrow{
+    position: absolute;
+    top: 42%;
+    transform: translateY(-50%);
+    font-size: 4.5rem;
+    z-index: 3;
+    padding: 0;
+    border:none;
+    border-radius: 52%;
+    cursor: pointer;
+}
+.slick-arrow:hover{
+    background-color: white;
+    color: var(--color-main);
+}
+.fa-chevron-circle-left{
+    left: -18px;
+}
+.fa-chevron-circle-right{
+    right: -18px;
+}

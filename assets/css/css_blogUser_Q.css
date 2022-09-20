@@ -1,0 +1,280 @@
+#navigation{
+    padding: 40px 0 0 0;
+    display: flex;
+  }
+  section{
+      background-color: whitesmoke;
+      width: 25%;
+  }
+  .menu_section_one{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: column;
+  }
+  .item_menu_one{
+      width: 90%;
+      margin: 10px 0;
+      padding: 14px 20px 10px;
+      border-bottom: 1px solid #88888888;
+  }
+  .item_menu_one button{
+      border: none;
+      outline: none;
+      background-color: transparent;
+      padding: 8px 12px;
+      font-size: 2rem;
+  }
+  aside{
+      width: 75%;
+      background-color: #FFCC9999;
+      margin-left: 0px;
+  }
+
+  .your-question  h1{
+      margin-top: 15px;
+  }
+  .question-checkbox:checked ~ .blog_question {
+    display: flex;
+  }
+  .question-user {
+    display: block;
+    background-color: #f0f2f5;
+    margin: 0 150px;
+    border-radius: 17px;
+    text-align: left;
+    padding: 13px 0 13px 27px;
+    cursor: pointer;
+  }
+  .question-user:hover {
+    background-color: #ffcc9960;
+  }
+  .blog_question{
+    display: none;
+    justify-content: center;
+    padding: 5px;
+    position: fixed;
+    z-index: 1;
+    top: 55px;
+    left: 0;
+    background-color: rgb(0,0,0,0.2);
+    right: 0;
+    bottom: 0;
+  }
+  .form_addBlogUser{
+    width: 40%;
+    min-height: 100px;
+    margin: 20px auto 40px;
+    text-align: left;
+    border: 1px solid #88888850;
+    padding: 15px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%), 0 8px 16px rgb(0 0 0 / 30%);
+    background-color: white;
+    position: relative;
+  }
+  .noiDung{
+    width: 92%;
+    margin: 10px auto;
+    height: 200px;
+    border: 1px solid #C0C0C090;
+    border-radius: 5px;
+    padding: 5px 15px;
+  }
+
+  .all-question{
+      width: 100%;
+      font-size: 110%;
+  }
+  .your-question{
+    width: 75%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 50px 25px;
+    min-height: 150px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 20%), 0 8px 16px rgb(0 0 0 / 20%);
+  }
+
+  /* item_blog */
+  /* Info user blog */
+  .info-user,
+  .user_comment{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height:60px;
+  }
+  .img-avatar,
+  .img-avatar_comment{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  .infoUser_content,
+  .infoUser_comment{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 200px;
+  }
+  .infoUser_content h3{
+    font-size: 1.9rem;
+    margin: 14px 12px 0;
+  }
+  .infoUser_content p{
+    margin-top: 10px;
+    margin-left: 16px;
+  }
+  .question_content{
+    font-size: 1.6rem;
+    margin: 10px 25px 20px;
+    line-height: 2.5rem;
+  }
+  .question_answer{
+    margin-top: 5px;
+    width: 100%;
+    min-height: 30px;
+    line-height: 1.4em;
+  }
+  .img_blog{
+    width: 45%;
+    margin: 10px 280px;
+  }
+  /* Like and comment */
+  .interactive{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: floralwhite;
+    padding: 10px 30px;
+  }
+  .heart_blog i, .heart_blog span{
+    font-size: 1.9rem;
+    margin-right: 3px;
+  }
+  .heart_blog .fas{
+    color: red;
+  }
+  .commented{
+    margin: 8px auto;
+    padding: 15px 10px;
+    width: 90%;
+    border-bottom: 1px solid #88888888;
+    position: relative;
+  }
+  .hover_comment:hover{
+    font-size: 2rem;
+    font-weight: 600;
+    color: red;
+  }
+  /* info user comment */
+  .infoUser_comment{
+    margin-left: 10px;
+    padding: 8px 0;
+  }
+  .user_comment h3{
+    margin: 0;
+    font-size: 1.9rem;
+  }
+  .time-question-comment{
+    margin: 8px 0 0;
+  }
+  .content_comment{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+
+
+  .item-question{
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 50px 25px;
+    width: 75%;
+    min-height: 200px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%), 0 8px 16px rgb(0 0 0 / 30%);
+  }
+  .question-close{
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 20px;
+    color: #ee0d0d;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .question-close:hover {
+    opacity: 0.6;
+  }
+  .submit_question{
+    margin: 2px auto 0;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #888888;
+    cursor: pointer;
+    color: #000;
+  }
+  .submit_question:hover{
+    background: #C0C0C090;
+  }
+  .question{
+    background: #EEEEEE80;
+    padding: 5px 0px;
+    margin-top: 15px;
+  }
+  /*  */
+  .input_rep-comment{
+      min-height: 35px;
+      margin: 16px 20px 0;
+  }
+  .input-comment , .input-reply{
+      height: 35px;
+      padding: 5px 10px;
+      border-radius: 5px;
+  }
+  .input-comment{
+      width: 78%;
+      float: left;
+  }
+  .input-reply{
+      width: 20%;
+      float: right;
+  }
+  .input-reply:hover{
+      font-size: 100%;
+      font-weight: bold;
+  }
+  .item_menuComment{
+    position: absolute;
+    right: 6px;
+    top:10px;
+    background: #d3d3d380;
+    text-align: center;
+  }
+  .menu_comment{
+    position: absolute;
+    top:15px;
+    right: 10px;
+  }
+  .item_menuComment{
+    padding: 3px 15px;
+    top: 3px;
+    right: 22px;
+    width: 80px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .item_menuComment p{
+    margin: 8px 0;
+  }
+
+  .form_updateCmt{
+    margin: 20px;
+}

@@ -1,0 +1,162 @@
+.container__img{
+    margin-top: -3px;
+}
+/* 4 Img */
+.container__content--item{
+    margin: 45px auto 0;
+}
+.content__top{
+    display: flex;
+    justify-content: space-around;
+}
+.content__top img {
+    width: 22%;
+}
+/* Banner */
+.content__center--top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.item--banner +.item--banner{
+    margin-left: 20px;
+}
+.banner-side{
+    width: 35%;
+}
+.banner-center{
+    width: 25%;
+}
+.banner-side img{
+    width: 90%;
+    height: 400px;
+    padding: 12px;
+    border: 3px double #7c6455;
+    opacity:0.3;
+    transition: all 0.3s linear;
+}
+.banner-center img{
+    width: 100%;
+    height: 300px;
+    border-radius: 50%;
+}
+.banner-side:hover img{
+    opacity: 1;
+    box-shadow: 1.5px 1.5px 5px #666;
+}
+/* New Product */
+.content__center--bottom{
+    margin-top: 55px;
+}
+.all__product--title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.item-title +.item-title{
+    margin-left: 40px;
+}
+.all__product--img{
+    margin: 0 auto;
+    padding: 30px 0 0;
+}
+.item-title{
+    font-size: 2.6rem;
+    color: black;
+    font-weight: 700;
+}
+.product--img-item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:0 auto 40px;
+}
+.product--img-item img{
+    width: 22%;
+}
+/* Content... */
+.content__bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content__bottom--img{
+    padding-right: 40px;
+    border-right: 1px solid #888888;
+}
+.content__bottom--img img{
+    width: 80%;
+    border-radius: 15px;
+    height: 350px;
+    box-shadow: 2px 2px 5px #888888;
+}
+.content__bottom--content{
+    height: 350px;
+    padding-left: 40px;
+}
+.content__bottom--content h3{
+    text-align: center;
+    font-size: 2.3rem;
+}
+.content__bottom--content p{
+    letter-spacing: 0.5px;
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+}
+/* 
+.pic-hover1:hover .moanh1
+{
+display: none;
+}
+.pic-nav-mid-one:hover .moanh3
+{
+display: none;
+}
+.pic-hover2:hover .moanh2
+{
+display: none;
+}
+.img-1{
+opacity: 0.5
+}
+.img-1:hover{
+opacity: 1
+}
+.img-3{
+opacity: 0.5
+}
+.img-3:hover{
+opacity: 1
+}
+.img{
+display: flex;
+justify-content: center;
+}
+
+#menu-body {
+    padding: 100px;
+    margin: 10px;
+    padding: 15px 15px;
+}
+#menu-body a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 120%;
+}
+.NguHanh{
+float: left;
+display: block;
+width: 50%;
+min-height: 600px;
+padding-bottom: 50px;
+border-radius: 50px;
+}
+.pic-ngu-hanh img{
+width: 80%;
+} */
