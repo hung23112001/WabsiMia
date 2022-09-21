@@ -13,6 +13,11 @@
 
 <img width="946" alt="image" src="https://user-images.githubusercontent.com/88154482/191556151-2aa52e74-699d-4d85-8ce6-b6d1afe58460.png">
 
+- Giao diện blog:
+<img width="948" alt="image" src="https://user-images.githubusercontent.com/88154482/191562862-e9920763-555b-4c86-b999-9ae485949a43.png">
+
+<img width="949" alt="image" src="https://user-images.githubusercontent.com/88154482/191563254-11cc9ecf-5e32-4799-bcac-74522bf501cf.png">
+
 - Giao diện sản phẩm:
 
 <img width="949" alt="image" src="https://user-images.githubusercontent.com/88154482/191557701-a57ed928-285f-4e28-8bba-1312f6238890.png">
