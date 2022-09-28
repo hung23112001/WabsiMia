@@ -1,8 +1,15 @@
-- Đề tài: Xây dựng trang website thương mại điện tử dùng HTML, CSS, Javascript, PHP.
+- Đề tài: Xây dựng trang website thương mại điện tử bán trang sức phong thủy.
+
+- Ngôn ngữ sử dụng: HTML, CSS, JavaScript, PHP.
+- Hệ quản trị cơ sở dữ liệu: MySQL.
 
 - Wabsi-Mia là một website bán trang sức phong thủy trực tuyến - Đây là project kết thúc quá trình học tập môn Phát triển ứng dụng Web.
 
 - Trang web được xây dựng với các chức năng: Thêm, sửa, xóa, tìm kiếm, phân trang cho các dữ liệu là thông tin của sản phẩm, thông tin tài khoản,... 
+
+- Cơ sở dữ liệu:
+
+![image](https://user-images.githubusercontent.com/88154482/192840016-33b2f9ac-cf48-4e6d-9a49-0d4adfd9fd31.png)
 
 - Giao diện đăng nhập/ đăng kí của web:
 
