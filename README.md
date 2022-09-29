@@ -1,5 +1,8 @@
 - Đề tài: Xây dựng trang website thương mại điện tử bán trang sức phong thủy.
-
+- Môn học: Phát triển ứng dụng Web.
+- Số thành viên: 5.
+- Vị trí công việc: Nhóm trưởng.
+- Vai trò cá nhân: Thiết kế giao diện, Thiết kế cơ sở dữ liệu, Thiết kế các chức năng quản lí cho tài khoản, sản phẩm.
 - Ngôn ngữ sử dụng: HTML, CSS, JavaScript, PHP.
 - Hệ quản trị cơ sở dữ liệu: MySQL.
 
